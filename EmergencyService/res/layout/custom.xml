@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewAdressOnDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Address:  "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewAdressOnDialog"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="15dp"
+        android:text="a"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewAddress"
+        android:layout_marginTop="24dp"
+        android:text="Phone"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_toRightOf="@+id/textViewAdressOnDialog" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginRight="21dp"
+        android:layout_toLeftOf="@+id/imageButtonCrossButton"
+        android:background="@android:color/white"
+        android:src="@drawable/caller" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCrossButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonCall"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_marginLeft="78dp"
+        android:background="@android:color/white"
+        android:src="@drawable/cross" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:layout_alignRight="@+id/imageButtonMap"
+        android:layout_below="@+id/imageButtonMap"
+        android:text="Map" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginRight="25dp"
+        android:background="#FBF5E6"
+        android:src="@drawable/mapicon" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PustiKotha</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- common string -->
+    <string name="btn_save">Save</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_measure">Measure</string>
+    <string name="btn_details">Details</string>
+    <string name="btn_new_measure">New Measure</string>
+    <string name="btn_delete">Delete</string>
+    <string name="boy">Boy</string>
+    <string name="girl">Girl</string>
+	<string name="date">Date :</string>
+	
+    <!-- main_list layout string -->
+    <string name="img_des">Amar Shishu</string>
+    <string name="text">Amar Shishu</string>
+
+    <!-- new child layout string -->
+    <string name="title_activity_new_child">NewChildActivity</string>
+    <string name="lbl_head">Notun Shishu</string>
+    <string name="nch_name">Name :</string>
+    <string name="nch_fname">Father\'s Name :</string>
+    <string name="nch_mname">Mother\'s Name :</string>
+    <string name="nch_bdate">Birth Date :</string>
+
+    <!-- my child layout -->
+    <string name="title_activity_my_child">My Child</string>
+    <string name="title_activity_nutrition_measurement">Nutrition Measurement</string>
+    <string name="title_activity_food_menu">Food Menu</string>
+    <string name="title_activity_whchart">Weight and Height Chart</string>
+    <string name="title_activity_child_tab">Girl Tab</string>
+    <string name="title_activity_child_info_tab">Boy Tab</string>
+
+    <!-- before birth measurement -->
+    <string name="title_activity_before_birth_measure_tab">Before Birth Measurement</string>
+    <string name="mother_three_month_weight">Mother\'s weight when 3 month :</string>
+    <string name="mother_present_weight">Mother\'s present weight :</string>
+    <string name="running_month">Running Month :</string>
+    <string name="bbm_instruction">Instruction</string>
+
+    <!-- zero to one measure -->
+    <string name="title_activity_zero_to_one_mesure_tab">Zero To One age Mesurement</string>
+    <string name="zto_instruction">Instruction</string>
+    <string name="zto_age">Baby\'s age (week) :</string>
+    <string name="zto_weight">Baby\'s Weight (kg) :</string>
+    <string name="zto_height">Baby\'s Height (cm) [optional] :</string>
+
+    <!-- One to Five measure -->
+    <string name="title_activity_one_to_five_measure_tab">One To Five Measurement</string>
+    <string name="otf_instruction">Instruction</string>
+    <string name="otf_age">Age (year) :</string>
+    <string name="otf_weight">Weight (kg) :</string>
+    <string name="otf_height">Height (cm) :</string>
+    <string name="otf_gender">Select Gender :</string>
+    <string name="title_activity_whgirl_tab">Girl</string>
+    <string name="title_activity_whboy_tab">Boy</string>
+    <string name="title_activity_child_info">ChildInfoActivity</string>
+    <string name="title_activity_nutrition_mesure_tab">NutritionMesureTab</string>
+	
+    <!-- child list layout -->
+    <string name="chl_fname">Father :</string>
+    <string name="chl_mname">Mother :</string>
+    <string name="tst">IPHN</string>
+    <string name="txr">Institute Of Public Health</string>
+    <string name="piu">Nutrition Bangladesh</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ad"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/four"
+        android:layout_alignBottom="@+id/four"
+        android:layout_alignLeft="@+id/two"
+        android:text="উ" />
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/five"
+        android:layout_alignBottom="@+id/five"
+        android:layout_alignLeft="@+id/three"
+        android:text="ঊ" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/seven"
+        android:layout_alignBottom="@+id/seven"
+        android:layout_centerHorizontal="true"
+        android:text="এ" />
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/eight"
+        android:layout_alignBottom="@+id/eight"
+        android:layout_alignLeft="@+id/six"
+        android:text="ঐ" />
+
+    <Button
+        android:id="@+id/eleven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eight"
+        android:layout_marginTop="61dp"
+        android:layout_toRightOf="@+id/eight"
+        android:text="ঔ " />
+
+    <Button
+        android:id="@+id/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/eleven"
+        android:layout_alignBottom="@+id/eleven"
+        android:layout_toLeftOf="@+id/eight"
+        android:text="ও" />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/four"
+        android:layout_centerVertical="true"
+        android:text="ঋ" />
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/one"
+        android:layout_marginRight="26dp"
+        android:text="ই" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/three"
+        android:layout_toLeftOf="@+id/eleven"
+        android:text="আ" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seven"
+        android:layout_alignLeft="@+id/one"
+        android:layout_marginBottom="30dp"
+        android:text="ঈ" />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/four"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginLeft="30dp"
+        android:text="অ" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashraful.pustikotha"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ashraful.pustikotha.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.NewChildActivity"
+            android:label="@string/title_activity_new_child" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.GrowthMonitorActivity"
+            android:label="@string/title_activity_my_child" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.NutritionMeasurementActivity"
+            android:label="@string/title_activity_nutrition_measurement" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.FoodMenuActivity"
+            android:label="@string/title_activity_food_menu" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.WHChartActivity"
+            android:label="@string/title_activity_whchart" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.GirlTabActivity"
+            android:label="@string/title_activity_child_tab" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.BoyTabActivity"
+            android:label="@string/title_activity_child_info_tab" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.BeforeBirthMeasureTab"
+            android:label="@string/title_activity_before_birth_measure_tab" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.ZeroToOneMesureTab"
+            android:label="@string/title_activity_zero_to_one_mesure_tab" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.OneToFiveMeasureTab"
+            android:label="@string/title_activity_one_to_five_measure_tab" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.WHGirlTab"
+            android:label="@string/title_activity_whgirl_tab" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.WHBoyTab"
+            android:label="@string/title_activity_whboy_tab" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.ChildInfoActivity"
+            android:label="@string/title_activity_child_info" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.ChildInfoTab"
+            android:label="@string/title_activity_child_info_tab" >
+        </activity>
+        <activity
+            android:name="com.ashraful.pustikotha.NutritionMesureTab"
+            android:label="@string/title_activity_nutrition_mesure_tab" >
+        </activity>
+    </application>
+
+</manifest>

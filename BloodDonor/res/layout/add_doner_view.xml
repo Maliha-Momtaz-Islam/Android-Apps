@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/txtIdentity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtAutoAddress"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="National ID/StudentID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtIdentity"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Birth Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/txtLastDonate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtBirthDate"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Last Donate"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/lblBG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:text=" Add Donor"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblBG"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Donor Name*"
+        android:lines="1"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/txtMobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Mobile No.*" />
+
+    <Spinner
+        android:id="@+id/spinGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMobileNo"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:entries="@array/array_bloodgroups"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/txtAutoAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinGroup"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Address" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/btnSaveDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+         android:layout_marginTop="14dp"
+        android:ems="10"
+        android:text="Save" />
+
+</RelativeLayout>

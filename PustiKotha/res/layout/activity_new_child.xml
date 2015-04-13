@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_lbl_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_head"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_nch_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nch_name" />
+
+    <EditText
+        android:id="@+id/et_nch_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_nch_fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nch_fname" />
+
+    <EditText
+        android:id="@+id/et_nch_fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_nch_mname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nch_mname" />
+
+    <EditText
+        android:id="@+id/et_nch_mname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_nch_bdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nch_bdate" />
+
+    <EditText
+        android:id="@+id/et_nch_bdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <RadioGroup
+        android:id="@+id/rdg_nch_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rdo_nch_girl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="@string/girl" />
+
+        <RadioButton
+            android:id="@+id/rdo_nch_boy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boy" />
+        
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_nch_save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_save" />
+
+        <Button
+            android:id="@+id/btn_nch_reset"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_reset" />
+
+        <Button
+            android:id="@+id/btn_nch_cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_zto_instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@android:color/white"
+        android:text="@string/zto_instruction" />
+
+    <TextView
+        android:id="@+id/tv_zto_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="@string/zto_age" />
+
+    <EditText
+        android:id="@+id/et_zto_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_zto_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:text="@string/zto_weight" />
+
+    <EditText
+        android:id="@+id/et_zto_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tv_zto_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="@string/zto_height" />
+
+    <EditText
+        android:id="@+id/et_zto_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btn_zto_measure"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_measure" />
+
+        <Button
+            android:id="@+id/btn_zto_reset"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_reset" />
+
+        <Button
+            android:id="@+id/btn_zto_cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

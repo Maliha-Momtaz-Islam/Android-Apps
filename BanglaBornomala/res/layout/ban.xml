@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secondback"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/chora1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="হাটটি মাটিম টিম" />
+
+    <Button
+        android:id="@+id/chora2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/chora1"
+        android:layout_marginTop="26dp"
+        android:text="খোকন খোকন" />
+
+    <Button
+        android:id="@+id/chora3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="আয় বৃষ্টি" />
+
+    <Button
+        android:id="@+id/chora4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/chora3"
+        android:layout_marginTop="47dp"
+        android:text="আতা গাছে তোতা পাখি" />
+
+    <Button
+        android:id="@+id/chora5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="আয় আয় চাঁদ মামা" />
+
+</RelativeLayout>
